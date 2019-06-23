@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9B25A35622BECF1A00BE1DE8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25A35522BECF1A00BE1DE8 /* main.swift */; };
+		9B25A36322BED49E00BE1DE8 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25A36222BED49E00BE1DE8 /* Address.swift */; };
+		9B25A36622BED4D600BE1DE8 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25A36522BED4D600BE1DE8 /* Student.swift */; };
+		9B25A36822BED4EE00BE1DE8 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25A36722BED4EE00BE1DE8 /* Teacher.swift */; };
+		9B25A36A22BED56600BE1DE8 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25A36922BED56600BE1DE8 /* Users.swift */; };
+		9B25A36C22BED5CD00BE1DE8 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25A36B22BED5CD00BE1DE8 /* IDisplay.swift */; };
+		9B25A36F22BED66500BE1DE8 /* Employees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25A36E22BED66500BE1DE8 /* Employees.swift */; };
+		9B25A37122BED67500BE1DE8 /* Librarian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25A37022BED67500BE1DE8 /* Librarian.swift */; };
+		9B25A37422BEEF1000BE1DE8 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25A37322BEEF1000BE1DE8 /* Books.swift */; };
+		9B25A37622BEF4DE00BE1DE8 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25A37522BEF4DE00BE1DE8 /* UserInformation.swift */; };
+		9B25A37822BEF64C00BE1DE8 /* borrower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25A37722BEF64C00BE1DE8 /* borrower.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +35,16 @@
 /* Begin PBXFileReference section */
 		9B25A35222BECF1A00BE1DE8 /* LibraryManagementSystemClone */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LibraryManagementSystemClone; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B25A35522BECF1A00BE1DE8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B25A36222BED49E00BE1DE8 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		9B25A36522BED4D600BE1DE8 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9B25A36722BED4EE00BE1DE8 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		9B25A36922BED56600BE1DE8 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		9B25A36B22BED5CD00BE1DE8 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
+		9B25A36E22BED66500BE1DE8 /* Employees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employees.swift; sourceTree = "<group>"; };
+		9B25A37022BED67500BE1DE8 /* Librarian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Librarian.swift; sourceTree = "<group>"; };
+		9B25A37322BEEF1000BE1DE8 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		9B25A37522BEF4DE00BE1DE8 /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
+		9B25A37722BEF64C00BE1DE8 /* borrower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = borrower.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +78,58 @@
 			isa = PBXGroup;
 			children = (
 				9B25A35522BECF1A00BE1DE8 /* main.swift */,
+				9B25A37222BEEEEF00BE1DE8 /* Book */,
+				9B25A36D22BED61A00BE1DE8 /* Employee */,
+				9B25A36422BED4C400BE1DE8 /* User */,
+				9B25A36122BED44F00BE1DE8 /* Other */,
+				9B25A35E22BED42400BE1DE8 /* Protocol */,
 			);
 			path = LibraryManagementSystemClone;
+			sourceTree = "<group>";
+		};
+		9B25A35E22BED42400BE1DE8 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				9B25A36B22BED5CD00BE1DE8 /* IDisplay.swift */,
+				9B25A37522BEF4DE00BE1DE8 /* UserInformation.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		9B25A36122BED44F00BE1DE8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9B25A36222BED49E00BE1DE8 /* Address.swift */,
+				9B25A37722BEF64C00BE1DE8 /* borrower.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9B25A36422BED4C400BE1DE8 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				9B25A36522BED4D600BE1DE8 /* Student.swift */,
+				9B25A36722BED4EE00BE1DE8 /* Teacher.swift */,
+				9B25A36922BED56600BE1DE8 /* Users.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		9B25A36D22BED61A00BE1DE8 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				9B25A36E22BED66500BE1DE8 /* Employees.swift */,
+				9B25A37022BED67500BE1DE8 /* Librarian.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		9B25A37222BEEEEF00BE1DE8 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				9B25A37322BEEF1000BE1DE8 /* Books.swift */,
+			);
+			path = Book;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +189,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B25A36322BED49E00BE1DE8 /* Address.swift in Sources */,
+				9B25A36822BED4EE00BE1DE8 /* Teacher.swift in Sources */,
+				9B25A36C22BED5CD00BE1DE8 /* IDisplay.swift in Sources */,
 				9B25A35622BECF1A00BE1DE8 /* main.swift in Sources */,
+				9B25A36F22BED66500BE1DE8 /* Employees.swift in Sources */,
+				9B25A37622BEF4DE00BE1DE8 /* UserInformation.swift in Sources */,
+				9B25A36A22BED56600BE1DE8 /* Users.swift in Sources */,
+				9B25A37422BEEF1000BE1DE8 /* Books.swift in Sources */,
+				9B25A37122BED67500BE1DE8 /* Librarian.swift in Sources */,
+				9B25A36622BED4D600BE1DE8 /* Student.swift in Sources */,
+				9B25A37822BEF64C00BE1DE8 /* borrower.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
